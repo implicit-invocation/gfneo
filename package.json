@@ -1,0 +1,21 @@
+{
+  "name": "gf-neo",
+  "scripts": {
+    "dev": "bun run --hot src/index.ts"
+  },
+  "dependencies": {
+    "bezier-easing": "^2.1.0",
+    "dayjs": "^1.11.13",
+    "hono": "^4.6.14",
+    "kysely": "^0.27.5",
+    "kysely-plugin-serialize": "^0.7.0",
+    "pg": "^8.13.1",
+    "pg-native": "^3.2.0",
+    "uuid": "^11.0.3"
+  },
+  "devDependencies": {
+    "@types/bun": "latest",
+    "@types/pg": "^8.11.10",
+    "@types/uuid": "^10.0.0"
+  }
+}
